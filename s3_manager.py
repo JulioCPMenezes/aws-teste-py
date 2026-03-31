@@ -119,3 +119,4 @@ class S3Manager:
             return False, "Credenciais AWS não encontradas. Rode 'aws configure'."
         except ClientError as erro:
             return False, f"Erro ao deletar arquivo: {erro}"
+        
